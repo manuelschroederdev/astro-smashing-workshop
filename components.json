@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "name": "feature",
+      "display_name": null,
+      "created_at": "2023-02-28T16:40:34.234Z",
+      "updated_at": "2023-02-28T16:40:34.234Z",
+      "id": 3504228,
+      "schema": {
+        "name": {
+          "type": "text"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "feature",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "grid",
+      "display_name": null,
+      "created_at": "2023-02-28T16:40:34.213Z",
+      "updated_at": "2023-02-28T16:40:34.213Z",
+      "id": 3504227,
+      "schema": {
+        "columns": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "grid",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "page",
+      "display_name": null,
+      "created_at": "2023-02-28T16:40:34.174Z",
+      "updated_at": "2023-02-28T16:40:34.174Z",
+      "id": 3504225,
+      "schema": {
+        "body": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "page",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "tabbed_content",
+      "display_name": null,
+      "created_at": "2023-02-28T17:22:00.862Z",
+      "updated_at": "2023-02-28T17:24:06.046Z",
+      "id": 3504318,
+      "schema": {
+        "entries": {
+          "type": "bloks",
+          "restrict_type": "",
+          "restrict_components": true,
+          "component_whitelist": [
+            "tabbed_content_entry"
+          ]
+        },
+        "directive": {
+          "type": "option",
+          "use_uuid": true,
+          "options": [
+            {
+              "_uid": "a19df4ff-ee44-48f4-9f28-f82d7d8fcfa9",
+              "name": "idle",
+              "value": "idle"
+            },
+            {
+              "_uid": "4acc9027-ba3a-4705-b1fb-d6f13702139d",
+              "value": "load",
+              "name": "load"
+            },
+            {
+              "_uid": "61ff19d6-2e55-4ca7-8271-a334d0d0e106",
+              "value": "visible",
+              "name": "visible"
+            }
+          ],
+          "exclude_empty_option": true,
+          "default_value": "idle"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "tabbed_content",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "tabbed_content_entry",
+      "display_name": null,
+      "created_at": "2023-02-28T17:21:21.784Z",
+      "updated_at": "2023-02-28T17:21:45.171Z",
+      "id": 3504317,
+      "schema": {
+        "headline": {
+          "type": "text"
+        },
+        "description": {
+          "type": "textarea"
+        },
+        "image": {
+          "type": "asset"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "tabbed_content_entry",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "teaser",
+      "display_name": null,
+      "created_at": "2023-02-28T16:40:34.196Z",
+      "updated_at": "2023-02-28T16:40:34.196Z",
+      "id": 3504226,
+      "schema": {
+        "headline": {
+          "type": "text"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "teaser",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    }
+  ]
+}
