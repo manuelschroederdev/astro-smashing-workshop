@@ -15,7 +15,6 @@ export default defineConfig({
         feature: 'storyblok/Feature',
         grid: 'storyblok/Grid',
         teaser: 'storyblok/Teaser',
-        tabbed_content: 'storyblok/TabbedContent',
       },
     }),
     tailwind(),
