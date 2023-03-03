@@ -8,7 +8,8 @@ import vue from '@astrojs/vue'
 export default defineConfig({
   integrations: [
     storyblok({
-      accessToken: 'Gba8ER5B7POJ9gjwteGduAtt',
+      accessToken: 'Gba8ER5B7POJ9gjwteGduAtt', // replace with your access token
+      // apiOptions: { region: 'us' }, // if your space is located in the US
       components: {
         page: 'storyblok/Page',
         feature: 'storyblok/Feature',
