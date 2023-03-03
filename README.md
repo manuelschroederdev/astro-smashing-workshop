@@ -1,4 +1,4 @@
-# Astro Smashing Workshop
+# Astro Smashing Workshop: Finished
 
 ## Setup
 
